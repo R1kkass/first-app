@@ -1,0 +1,99 @@
+
+
+$colorLightBlue: #5AB9EA;
+$colorBlue: #5680E9;
+
+%myBut{
+    height: 50px;
+    min-width: 150px;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: 0.3s;
+    &:hover{
+
+        background: none;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+        height: 30px;
+    }
+}
+
+
+
+.myButton{
+    height: 50px;
+    min-width: 150px;
+    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+    border: solid 1px $colorBlue;
+    &:hover{
+        color: $colorBlue;
+        background: none;
+        border: solid 1px $colorBlue;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+        height: 30px;
+        min-width: 10%;
+        width: 100%;
+    }
+}
+
+.myButtonIndigo{
+    background: indigo;
+    border: solid 1px indigo;
+    @extend %myBut;
+    &:hover{
+        color: indigo;
+        border: 1px solid indigo;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+        height: 30px;
+        min-width: 10%;
+        width: 100%;
+    }
+}
+
+.myButtonRed{
+    background-color: red;
+    border:red;
+    @extend %myBut;
+    &:hover{
+        color: red;
+        border: 1px solid red;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+        height: 30px;
+        width: 0
+    }
+}
+
+.myButtonPink{
+    margin: 0 auto;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 80%;
+    color: #0072ff;
+    height: 60px;
+    border: 1px solid #0072ff;
+    transition: 0.3s;
+    &:hover{
+        color: white;
+        background: linear-gradient(90deg, #e23175 0%, #f30de8 100%);
+    }
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+        height: 30px;
+        min-width: 10%;
+        width: 100%;
+    }
+}

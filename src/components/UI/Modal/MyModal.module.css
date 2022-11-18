@@ -1,0 +1,29 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    transition: 0.3s;
+    }
+    
+    .myModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    min-width: 50%;
+    background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+    border: solid 2px teal;
+    transition: 0.3s;
+    }
+    
+    .myModal.active {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 20;
+    }

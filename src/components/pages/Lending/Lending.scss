@@ -1,0 +1,164 @@
+.Lending{
+    .Lending__parallax {
+        background-image: url("https://www.o-svet.ru/upload/iblock/4e0/78dnahaablwg1mqzbo2dkorblngv1w90.jpg");
+
+        min-height: calc(100vh - 155px); 
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        h1{
+            
+            font-size: 3rem;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+            1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            font-weight: 600;
+            @media screen and (max-width: 1000px) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    .Lending__aboutCompany{
+        box-shadow: 0 0 5px 0 gray;
+        padding: 20px;
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        background-position: right;
+        margin-top: 20px;
+        h1{
+            font-size: 3rem;
+            @media screen and (max-width: 1100px) {
+                font-size: 1.5rem;
+            }
+        }
+        div{
+            display: flex;
+            @media screen and (max-width: 1100px) {
+                display: block;
+            }
+            div{
+                padding-top: 5px;
+                padding-left: 5px;
+                border-radius: 5px;
+                img{
+                    width: 100%;
+                    border-radius: 5px;
+                    height: 100%;
+                    box-shadow: 0 0 5px 0 gray;
+                    
+                    
+                }
+            }
+            
+            p{
+                width: 100%;
+                font-weight: 100;
+                font-size: 1.5rem;
+                color: black;
+                @media screen and (max-width: 1100px) {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .Lending__services{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        height: 100%;
+        
+        @media screen and (max-width: 1100px) {
+            width: 100%;
+            display: grid;
+        }
+        .Services__block{
+            display: flex;
+
+            min-height: 800px;
+            height: 100%;
+            .Block{
+                padding: 20px;
+                padding-top: 40px;
+                border: solid 1px blue;
+                margin-top: 70px;
+                background-color: white;
+                font-size: 1rem;
+                min-height: 500px;
+                width: 400px;
+                li{
+                    margin-top: 20px;
+                }
+                @media screen and (max-width: 1100px) {
+                    width: 80%;
+                    max-width: 400px;
+                }
+            }
+            .Block2{
+                width: 330px;
+                height: 100px;
+                background-color: white;
+                font-size: 1.4rem;
+                overflow: hidden;
+                font-weight: 500;
+                z-index: 100;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border: solid 3px orange;
+                @media screen and (max-width: 1100px) {
+                    width: 70%;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .Lending__text{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0px;
+        @media screen and (max-width: 1000px) {
+            margin: 0;
+            margin-left: -20px;
+        }
+        h1{
+        font-size: 3rem;
+        @media screen and (max-width: 1000px) {
+            font-size: 1.5rem;
+        }
+        }
+        p{
+            font-size: 1.5rem;
+            @media screen and (max-width: 1000px) {
+                font-size: 1rem;
+                
+            }
+        }
+    }
+    
+    .Text__container{
+        
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: 0 0 5px 0;
+        overflow: hidden;
+    }
+}
+
+

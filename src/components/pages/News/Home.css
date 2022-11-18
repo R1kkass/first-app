@@ -1,0 +1,99 @@
+.Home {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+@media screen and (max-width: 1000px) {
+  .Home {
+    grid-template-columns: 0px 1fr;
+  }
+}
+.Home .Home__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+@media screen and (max-width: 1000px) {
+  .Home .Home__cards {
+    justify-content: center;
+  }
+}
+.Home .Home__cards div {
+  margin-right: 10px;
+}
+.Home .Home__search {
+  margin-top: 10px;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .Home .Home__search {
+    justify-content: center;
+  }
+}
+.Home .Home__search input {
+  width: 30%;
+  padding: 5px;
+  border: solid 1px #5680E9;
+  margin: 0;
+  box-shadow: 0 0 1px 0;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+.Home .Home__search input:focus {
+  outline: none;
+  box-shadow: 0 0 5px 0;
+}
+.Home .Home__search button {
+  height: 50px;
+  width: 100px;
+  padding: 5px;
+  font-size: 1.3rem;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 0 0 1px 0;
+  padding: 0px;
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+  color: white;
+  border: 1px solid #5AB9EA;
+  padding: 5px;
+  transition: 0.3s;
+}
+.Home .Home__search button:hover {
+  background: linear-gradient(90deg, #fff 0%, #fff 100%);
+  color: #5680E9;
+  box-shadow: 0 0 5px 0;
+}
+.Home .Home__pagination {
+  display: flex;
+  margin-top: 10px;
+  color: white;
+  width: 80%;
+}
+.Home .Home__pagination div {
+  margin-left: 15px;
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+  width: 40px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  font-size: 24px;
+  transition: 0.3s;
+  box-shadow: 0 0 5px 0;
+}
+@media screen and (max-width: 1000px) {
+  .Home .Home__pagination div {
+    width: 30px;
+    height: 40px;
+  }
+}
+.Home .Home__pagination div:hover {
+  background: none;
+  outline: 1px solid #5680E9;
+  color: #5680E9;
+  cursor: pointer;
+}
+.Home .Card {
+  display: flex;
+  overflow: hidden;
+  border: 1px solid blue;
+}/*# sourceMappingURL=Home.css.map */

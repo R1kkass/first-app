@@ -1,0 +1,22 @@
+.Sale{
+    @media screen and (max-width: 1000px) {
+        img{
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .Sale__card{
+        width: 80%;
+        margin: 0 auto;
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

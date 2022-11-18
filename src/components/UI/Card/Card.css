@@ -1,0 +1,62 @@
+.Card {
+  max-width: 350px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  box-shadow: 0 0 5px 0px;
+  cursor: pointer;
+}
+.Card .sds {
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .Card {
+    max-width: 200px;
+    height: 250px;
+  }
+}
+.Card .Card__img {
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+}
+@media screen and (max-width: 1000px) {
+  .Card .Card__img {
+    max-width: 200px;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.Card img {
+  width: 350px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.Card:hover img {
+  width: 400px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0;
+  margin-top: -50px;
+  margin-left: -20px;
+}
+.Card:hover {
+  box-shadow: 0 0 5px 0px;
+}
+.Card p {
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .Card p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=Card.css.map */

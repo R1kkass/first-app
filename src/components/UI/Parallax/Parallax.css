@@ -1,0 +1,80 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://kinsta.com/wp-content/uploads/2021/11/about-us-page.png");
+  height: 84vh;
+  overflow: hidden;
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.parallax h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px gray;
+}
+.parallax .parallax__window {
+  display: grid;
+  border-radius: 0px 50px 0px 0px;
+  align-items: center;
+  grid-row-start: 1;
+  overflow: hidden;
+  grid-row-end: 1;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 1px 1px 5px gray;
+  z-index: 0;
+  margin-bottom: auto;
+  margin-top: -600px;
+  margin-left: -1500px;
+  min-width: 400px;
+  height: 200vh;
+  transform: rotate(65deg);
+}
+@media screen and (min-width: 1000px) {
+  .parallax .parallax__window {
+    background-color: white;
+  }
+}
+.parallax .parallax__window span, .parallax .parallax__window p {
+  color: indigo;
+  margin-left: 400px;
+  margin-top: -1600px;
+  transform: rotate(-65deg);
+}
+@media screen and (min-width: 1000px) {
+  .parallax p {
+    position: relative;
+    z-index: 100;
+  }
+}
+
+.parallax__text {
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 0.3fr 0.1fr;
+  margin-top: 22vh;
+  margin-left: 3vh;
+  height: 84vh;
+  width: 35%;
+  color: indigo;
+  font-size: 3.3rem;
+  font-weight: 600;
+  text-shadow: 0px 1px 5px gray;
+}
+@media screen and (max-width: 1000px) {
+  .parallax__text {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .parallax__text {
+    margin-left: 0vh;
+    width: 100%;
+    z-index: -1;
+  }
+}/*# sourceMappingURL=Parallax.css.map */

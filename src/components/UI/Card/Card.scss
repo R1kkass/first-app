@@ -1,0 +1,61 @@
+$colorLightBlue: #5AB9EA;
+$colorBlue: #5680E9;
+
+.Card{
+    max-width: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 20px;
+    .sds{
+        height: 100%;
+    }
+    
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    transition: 0.3s;
+    box-shadow: 0 0 5px 0px;
+
+    cursor: pointer;
+    @media screen and (max-width: 1000px) {
+        max-width: 200px;
+        height: 250px;
+        
+    }
+    .Card__img{
+        overflow: hidden;
+        width: 400px;
+        height: 300px;
+        @media screen and (max-width: 1000px) {
+            max-width: 200px;
+            height: 180px;
+            object-fit: cover;
+        }
+    }
+ 
+    img{
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    &:hover img{
+        width: 400px;
+        height: 350px;
+        object-fit: cover;
+        padding: 0;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+    
+    &:hover{
+        box-shadow: 0 0 5px 0px;
+    }
+    p{
+        font-size: 1.3rem;
+        padding-left: 5px;
+        @media screen and (max-width: 1000px) {
+            font-size: 1rem;
+        }
+    }
+}

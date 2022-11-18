@@ -1,0 +1,139 @@
+.ServicesEquipment {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ServicesEquipment h1 {
+  margin-top: 20px;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .ServicesEquipment h1 {
+    font-size: 2rem;
+  }
+}
+.ServicesEquipment .ServicesEquipment__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ServicesEquipment .ServicesEquipment__block .Block__unit {
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.3rem;
+  height: 200px;
+  width: 250px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 5px 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .ServicesEquipment .ServicesEquipment__block .Block__unit {
+    margin-right: auto;
+  }
+}
+.ServicesEquipment .ServicesEquipment__block .Block__unit img {
+  justify-self: center;
+  color: blue;
+}
+.ServicesEquipment .ServicesEquipment__block .Block__unit p {
+  text-align: center;
+  justify-self: center;
+}
+.ServicesEquipment .ServicesEquipment__block .Block__unit:hover {
+  color: rgb(70, 70, 199);
+  box-shadow: 0 0 10px 0;
+}
+.ServicesEquipment .ServicesEquipment__title h1 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 1100px) {
+  .ServicesEquipment .ServicesEquipment__title h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .ServicesEquipment .ServicesEquipment__title h1 {
+    font-size: 2rem;
+  }
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1100px) {
+  .ServicesEquipment .ServicesEquipment__title .Title__block {
+    display: block;
+  }
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block1 {
+  background: url("https://romatti.ru/upload/iblock/1aa/1aab210014decf9f99f553fd2cc13b72.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 40%;
+  box-shadow: 0 0 5px 0;
+  background-position: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media screen and (max-width: 1100px) {
+  .ServicesEquipment .ServicesEquipment__title .Title__block .Block1 {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block1 h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+  transition: 0.3s;
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block1:hover {
+  box-shadow: 0 0 10px 0;
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block1:hover h1 {
+  color: rgb(115, 115, 247);
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block2 {
+  transition: 0.3s;
+  width: 40%;
+  background: url("https://svetilnik220.ru/thumb/2/8fflT25fI7S0ymRpqy2oPA/r/d/podvisnoy_lineynyy_svetilnik_modulnyy_na_podvesakh_trosakh_ofisnyy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  box-shadow: 0 0 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .ServicesEquipment .ServicesEquipment__title .Title__block .Block2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block2 h1 {
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+@media screen and (max-width: 1000px) {
+  .ServicesEquipment .ServicesEquipment__title .Title__block .Block2 h1 {
+    font-size: 1.5rem;
+  }
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block2:hover {
+  box-shadow: 0 0 10px 0;
+}
+.ServicesEquipment .ServicesEquipment__title .Title__block .Block2:hover h1 {
+  color: rgb(115, 115, 247);
+}/*# sourceMappingURL=ServicesEquipment.css.map */

@@ -1,0 +1,76 @@
+body {
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.Authorization {
+  display: grid;
+  width: 600px;
+  margin: auto;
+  height: calc(100vh - 155px - 70px);
+}
+@media screen and (max-width: 1000px) {
+  .Authorization {
+    width: 100%;
+  }
+}
+.Authorization p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+}
+.Authorization div {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px #0072ff;
+  height: 70%;
+  margin-top: auto;
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+  margin-bottom: auto;
+  display: grid;
+  align-items: center;
+}
+.Authorization div h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+.Authorization div input {
+  margin: 0 auto;
+  width: 80%;
+  height: 60px;
+  border: 1px solid #0072ff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+}
+.Authorization div input:focus {
+  outline: none;
+}
+.Authorization div button {
+  margin: 0 auto;
+  background-color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 80%;
+  color: #0072ff;
+  height: 60px;
+  border: 1px solid #0072ff;
+  transition: 0.3s;
+}
+.Authorization div button:hover {
+  color: white;
+  background: linear-gradient(90deg, #e23175 0%, #f30de8 100%);
+}
+@media screen and (max-width: 1000px) {
+  .Authorization div input {
+    height: 40px;
+  }
+  .Authorization div h1 {
+    font-size: 2rem;
+  }
+  .Authorization div button {
+    height: 50px;
+    width: 50%;
+  }
+}/*# sourceMappingURL=Authorization.css.map */

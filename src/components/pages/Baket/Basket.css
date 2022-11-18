@@ -1,0 +1,103 @@
+.Basket {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  min-height: calc(100vh - 105px);
+  margin-bottom: -20px;
+}
+@media screen and (max-width: 750px) {
+  .Basket {
+    display: block;
+  }
+}
+.Basket .Basket__menu {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: linear-gradient(90deg, #71a9ec 0%, #00d4ff 100%);
+}
+.Basket .Basket__menu p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Basket .Basket__menu .Menu__mainWindow .MainWindow__buy {
+  display: flex;
+  justify-content: center;
+}
+.Basket .Basket__order {
+  margin-top: 20px;
+}
+.Basket .Basket__order .Order__card {
+  display: flex;
+  overflow: hidden;
+  border: #71a9ec solid 1px;
+  border-radius: 5px;
+  align-items: center;
+  height: 150px;
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 0;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card {
+    height: 350px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}
+.Basket .Basket__order .Order__card :last-child {
+  margin-right: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card :last-child {
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+.Basket .Basket__order .Order__card .Card__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card .Card__img {
+    display: block;
+  }
+}
+.Basket .Basket__order .Order__card .Card__img img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card .Card__img img {
+    min-width: 100%;
+    height: 250px;
+  }
+}
+.Basket .Basket__order .Order__card .Card__img h1 {
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card .Card__img h1 {
+    font-size: 1rem;
+  }
+}
+.Basket .Basket__order .Order__card .Card__img p {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1000px) {
+  .Basket .Basket__order .Order__card .Card__img p {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=Basket.css.map */

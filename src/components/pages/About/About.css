@@ -1,0 +1,197 @@
+.About .About__grid div:nth-child(3):hover, .About .About__grid div:nth-child(2):hover, .About .About__grid div:nth-child(1):hover {
+  text-shadow: 0px 5px 5px gray;
+}
+
+.About {
+  width: 90%;
+  margin: 0 auto;
+}
+.About .About__card {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.About .About__card div {
+  margin-right: 10px;
+}
+.About h1 {
+  font-size: 50px;
+  text-shadow: 1px 3px 5px gray;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.About .About__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  height: 500px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .About .About__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+.About .About__grid div:nth-child(1) {
+  border: solid 1px #5680E9;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: url("https://svetotehnica.ru/local/templates/main/data/news-banner-2.png");
+  background-size: 1515px;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 1px 5px gray;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 0 5px 0;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .About .About__grid div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}
+.About .About__grid div:nth-child(1) a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.About .About__grid div:nth-child(1) a:hover {
+  color: white;
+}
+.About .About__grid div:nth-child(1):hover {
+  background-size: 1600px;
+  cursor: pointer;
+}
+.About .About__grid div:nth-child(2) {
+  border: solid 1px #5680E9;
+  transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0;
+  background: url("https://androidlime.ru/wp-content/uploads/2019/10/phone-contacts.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  .About .About__grid div:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+.About .About__grid div:nth-child(2) a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.About .About__grid div:nth-child(2) a:hover {
+  color: white;
+}
+.About .About__grid div:nth-child(2):hover {
+  cursor: pointer;
+}
+.About .About__grid div:nth-child(3) {
+  border: solid 1px #5680E9;
+  transition: 0.3s;
+  background: url("https://www.retail.ru/upload/medialibrary/d94/shutterstock_1536090566.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0;
+}
+.About .About__grid div:nth-child(3) a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+}
+.About .About__grid div:nth-child(3) a:hover {
+  color: black;
+}
+.About .About__grid div:nth-child(3):hover {
+  cursor: pointer;
+}
+.About .About__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  margin: 0 auto;
+  border: solid #5680E9 2px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .About .About__form {
+    display: block;
+  }
+}
+.About .About__form h1 {
+  font-size: 1.6rem;
+  color: white;
+}
+.About .About__form div:nth-child(1) {
+  justify-content: center;
+  display: grid;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0;
+  grid-template-rows: 1fr 0.1fr 1fr;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+}
+.About .About__form div:nth-child(1) input {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #5680E9;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 24px;
+}
+.About .About__form div:nth-child(1) input:focus {
+  outline: none;
+}
+.About .About__form div:nth-child(2) {
+  display: grid;
+  align-items: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  justify-content: center;
+}
+.About .About__form div:nth-child(2) p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.About .About__form div:nth-child(2) img {
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=About.css.map */

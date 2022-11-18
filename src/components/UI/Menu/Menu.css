@@ -1,0 +1,77 @@
+.Menu {
+  box-shadow: 0 0 5px 0 gray;
+  width: 300px;
+  overflow: hidden;
+  background-color: #74EBD5;
+  background: linear-gradient(90deg, #71a9ec 0%, #00d4ff 100%);
+  color: white;
+  text-align: left;
+  min-height: 100vh;
+  height: calc(100% + 20px);
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .Menu {
+    width: 500px;
+    display: none;
+  }
+}
+.Menu h2 {
+  text-align: center;
+}
+.Menu .Menu__filter {
+  position: fixed;
+  width: 300px;
+  transition: 0.3s;
+}
+.Menu .Menu__filter a {
+  text-align: start;
+  margin: 0;
+  width: 0;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+.Menu .Menu__filter a:hover {
+  background-color: white;
+  color: #5680e9;
+  cursor: pointer;
+}
+.Menu .Menu__filter h3, .Menu .Menu__filter p {
+  font-size: 1.3rem;
+  margin-left: 10px;
+  margin: 10px;
+  width: 300px;
+}
+.Menu .Menu__filter div {
+  border-top: 1px solid;
+}
+.Menu .Menu__filter .Filter__p:hover {
+  background-color: white;
+  color: #5680e9;
+  cursor: pointer;
+}
+.Menu .Menu__search {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  justify-content: center;
+}
+.Menu .Menu__search input {
+  height: 30px;
+  width: 70%;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px #5680e9;
+}
+.Menu .Menu__search input:focus {
+  outline: none;
+}
+.Menu .Menu__search button {
+  height: 30px;
+  border: solid 1px #5680e9;
+  background-color: white;
+  width: 50px;
+  border-radius: 5px;
+  color: #5680e9;
+  cursor: pointer;
+}/*# sourceMappingURL=Menu.css.map */
